@@ -1,6 +1,6 @@
 import './Accordion.scss';
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 class Accordion extends Component {
 
 
@@ -20,7 +20,7 @@ class Accordion extends Component {
 
     render() {
         return (
-            <div class={`accordion-item lele ${this.state.active ? 'active' : ''}`}>
+            <div class={`accordion-item ${this.state.active ? 'active' : ''}`}>
                 <h4 class="accordion-item-trigger heading-4" onClick={() => {this.toggle()}}>
                     {this.props.question}
                     </h4>

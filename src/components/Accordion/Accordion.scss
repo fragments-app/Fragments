@@ -1,11 +1,11 @@
 .accordion-item {
     position: relative;
-    border-bottom: solid 1px $lightGrey;
+    border-bottom: solid 1px #ccc;
     .accordion-item-content {
         max-height: 0;
         transition: all .5s ease-in-out;
         overflow: hidden;
-        color: $darkGrey;
+        color: #999;
 
         p {
             padding: 0;
@@ -17,13 +17,13 @@
         cursor: pointer;
         margin: 0;
         position: relative;
-        @include respond-to('medium-landscape') {
-            padding-right: 0;
-        }
+        // @include respond-to('medium-landscape') {
+        //     padding-right: 0;
+        // }
     }
 
     .accordion-icon {
-        color: $primaryColor;
+        color: red;
         text-transform: uppercase;
         font-weight: 500;
         padding: 0 0 10px 0;
@@ -34,7 +34,7 @@
 
         &:before {
             content: '';
-            background-color: $primaryColor;
+            background-color: red;
             width: 13px;
             height: 13px;
             display: inline-block;
