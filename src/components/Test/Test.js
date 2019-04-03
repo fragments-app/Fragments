@@ -6,7 +6,7 @@ const Test = (props) => {
     return (
         <div style={{ background: bgColor }}>
             name: {name}
-            <div className="fromScsc">from Scsc</div>
+            <div className="fromScsc">from Scsc Nico!</div>
         </div>
     )
 }
