@@ -3,12 +3,7 @@ import React, { Component } from 'react';
 // import private components
 import Fragments from './private_components/fragments';
 
-// import components 
-import Test  from './components/Test/Test';
-     
-import Test  from './components/Test/Test';
-     
-     
+// import components      
 import Accordion from './components/Accordion/Accordion';
 
 
@@ -16,15 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Fragments>
-
-        <Test name="Nicolas" bgColor="#fe3e4e" />
-    
-
-        <Test name="Nicolas" bgColor="#fe3e4e" />
-    
-
-       
+        <Fragments>   
           <Accordion question="What is that?" answer="That's an accordion" />
         </Fragments>
       </div>
