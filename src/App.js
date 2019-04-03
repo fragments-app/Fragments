@@ -6,6 +6,8 @@ import Fragments from './private_components/fragments';
 // import components 
 import Test  from './components/Test/Test';
      
+import Test  from './components/Test/Test';
+     
      
 import Accordion from './components/Accordion/Accordion';
 
@@ -15,6 +17,9 @@ class App extends Component {
     return (
       <div className="App">
         <Fragments>
+
+        <Test name="Nicolas" bgColor="#fe3e4e" />
+    
 
         <Test name="Nicolas" bgColor="#fe3e4e" />
     
