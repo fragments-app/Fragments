@@ -1,0 +1,9 @@
+{
+    "component":{
+        "output": "Test",
+        "props": [
+            {"prop":"name", "default":"Nicolas"},
+            {"prop":"bgColor", "default":"#fe3e4e"}
+        ]
+    }
+}
