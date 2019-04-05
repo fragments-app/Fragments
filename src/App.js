@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import Fragments from './private_components/fragments';
 
 // import components 
+import CmpTest  from './components/CmpTest/CmpTest';
+     
 import Test  from './components/Test/Test';
           
 import Accordion from './components/Accordion/Accordion';
@@ -14,6 +16,9 @@ class App extends Component {
     return (
       <div className="App">
         <Fragments>
+
+        <CmpTest />
+    
 
         <Test name="Nicolas" bgColor="#fe3e4e" />
        
